@@ -1,7 +1,8 @@
 # Challenge_Telecom_2
 
 Informe de Churn – Telecom
-#1) Objetivo
+
+**1) Objetivo
    
 Predecir la probabilidad de cancelación y entender qué factores la impulsan, para accionar tácticas de retención.
 
