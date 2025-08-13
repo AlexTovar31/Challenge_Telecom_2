@@ -2,11 +2,11 @@
 
 Informe de Churn – Telecom
 
-**1) Objetivo
+**1) Objetivo**
    
 Predecir la probabilidad de cancelación y entender qué factores la impulsan, para accionar tácticas de retención.
 
-#2) Preparación de datos (resumen)
+**2) Preparación de datos (resumen)**
    
 Unificación de categorías “No internet service” / “No phone service” → “No”.
 
