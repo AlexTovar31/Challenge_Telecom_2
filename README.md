@@ -22,7 +22,7 @@ Se eliminaron variables altamente colineales (|corr| > 0.85) conservando la más
 
 Split estratificado 80/20 y SMOTE solo en train.
 
-#3) Rendimiento de modelos (test)
+**3) Rendimiento de modelos (test)**
 
 Decide el “mejor” modelo según tu criterio de negocio (normalmente F1 o Recall si priorizas detectar churners; ROC-AUC si buscas discriminación global).
 
@@ -36,7 +36,7 @@ Decision Tree: más interpretable, pero tiende a menor F1/ROC-AUC (sobreajuste s
 
 Usa tu resultados_df para confirmar: ordena por F1-score o ROC-AUC y elige el campeón.
 
-#4) Factores que más influyen en la cancelación
+**4) Factores que más influyen en la cancelación**
 
 Basado en la intersección de feature importances de Random Forest y XGBoost, y en los signos de correlación con Churn_Yes.
 
@@ -76,7 +76,7 @@ Clientes consolidados abandonan menos.
 
 Confirma en tus gráficos: las barras Top-15 de RF/XGB y la correlación con Churn_Yes deben reflejar este patrón (puede variar por tu muestra).
 
-#5) Segmentos de alto riesgo (accionables)
+**5) Segmentos de alto riesgo (accionables)**
 
 Mes a mes + cargos altos + tenure bajo
 – Foco de onboarding, descuentos iniciales, bundling de valor (seguridad/soporte).
@@ -87,7 +87,7 @@ Electronic check + mes a mes
 Fibra + cargos altos + sin soporte
 – Revisión de calidad percibida, visitas preventivas, trial de TechSupport/OnlineSecurity.
 
-#6) Estrategias de retención (priorizadas)
+**6) Estrategias de retención (priorizadas)**
 
 Upgrade de contrato (Month-to-month → 1/2 años)
 
@@ -116,7 +116,7 @@ Onboarding reforzado (clientes nuevos)
 Check-in post-instalación (7–10 días), tips de uso, test de velocidad guiado,
 canal de soporte prioritario el primer mes.
 
-#7) Umbral operativo y costos
+**7) Umbral operativo y costos**
 
 Ajusta el threshold del score del mejor modelo para maximizar F1 o Recall según tu costo de error:
 
@@ -126,7 +126,7 @@ Si contactar de más es muy caro → prioriza Precision.
 
 Implementa una matriz de costos (retener vs. dejar ir) para fijar el umbral óptimo.
 
-#8) Recomendaciones técnicas (siguientes pasos)
+**8) Recomendaciones técnicas (siguientes pasos)**
 
 Tuning de hiperparámetros (Randomized/Grid/BayesSearch) para RF y XGB.
 
