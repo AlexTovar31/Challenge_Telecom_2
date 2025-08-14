@@ -6,6 +6,14 @@ Informe de Churn – Telecom 📉
    
 Predecir la probabilidad de cancelación y entender qué factores la impulsan, para accionar tácticas de retención.
 
+Con este análisis buscamos:
+
+- Identificar los factores que más influyen en la cancelación.
+  
+- Evaluar y comparar diferentes modelos de machine learning.
+  
+- Proponer estrategias de retención basadas en resultados.
+
 **2) Preparación de datos (resumen)**
    
 Unificación de categorías “No internet service” / “No phone service” → “No”.
