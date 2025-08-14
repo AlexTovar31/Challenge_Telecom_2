@@ -1,6 +1,6 @@
-# Challenge_Telecom_2
+# Challenge_Telecom_2 
 
-Informe de Churn – Telecom
+Informe de Churn – Telecom 📉
 
 **1) Objetivo**
    
@@ -87,7 +87,7 @@ Electronic check + mes a mes
 Fibra + cargos altos + sin soporte
 – Revisión de calidad percibida, visitas preventivas, trial de TechSupport/OnlineSecurity.
 
-**6) Estrategias de retención (priorizadas)**
+**6) Estrategias de retención (priorizadas)** 🏆
 
 Upgrade de contrato (Month-to-month → 1/2 años)
 
@@ -132,4 +132,5 @@ link de la base repositorio en github: https://github.com/AlexTovar31/Challenge_
 El conjunto de datos se encuentra con el nombre de telecomX2.csv
 
 Proyecto desarrollado para TelecomX - Alura Latam - OracleONE G8
-ALEXANDER TOVAR MORCILLO
+
+**ALEXANDER TOVAR MORCILLO**
