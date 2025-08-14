@@ -116,14 +116,20 @@ Onboarding reforzado (clientes nuevos)
 Check-in post-instalación (7–10 días), tips de uso, test de velocidad guiado,
 canal de soporte prioritario el primer mes.
 
-**7) Umbral operativo y costos**
+**💡Herramientas Utilizadas Python 3.x**
 
-Ajusta el threshold del score del mejor modelo para maximizar F1 o Recall según tu costo de error:
+Pandas, NumPy (procesamiento de datos)
 
-Si perder un cliente es muy caro → prioriza Recall (aceptas más falsos positivos).
+Plotly, Seaborn, Matplotlib (visualización)
 
-Si contactar de más es muy caro → prioriza Precision.
+Jupyter Notebook
 
-Implementa una matriz de costos (retener vs. dejar ir) para fijar el umbral óptimo.
+**▶️ Cómo Ejecutar el Proyecto**
 
+link de la base repositorio en github: https://github.com/AlexTovar31/Challenge_Telecom_2
 
+**📚 Archivos Relevantes**
+El conjunto de datos se encuentra con el nombre de telecomX2.csv
+
+Proyecto desarrollado para TelecomX - Alura Latam - OracleONE G8
+ALEXANDER TOVAR MORCILLO
