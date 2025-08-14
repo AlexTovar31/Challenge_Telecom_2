@@ -131,6 +131,7 @@ link de la base repositorio en github: https://github.com/AlexTovar31/Challenge_
 **📚 Archivos Relevantes**
 
 El conjunto de datos se encuentra con el nombre de telecomX2.csv
+
 Notebook con el nombre de TelecomX_2.ipynb
 
 Proyecto desarrollado para TelecomX - Alura Latam - OracleONE G8
