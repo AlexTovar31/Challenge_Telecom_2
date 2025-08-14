@@ -126,16 +126,4 @@ Si contactar de más es muy caro → prioriza Precision.
 
 Implementa una matriz de costos (retener vs. dejar ir) para fijar el umbral óptimo.
 
-**8) Recomendaciones técnicas (siguientes pasos)**
-
-Tuning de hiperparámetros (Randomized/Grid/BayesSearch) para RF y XGB.
-
-Calibración de probabilidades (Platt/Isotonic) para campañas basadas en score.
-
-Explainability: SHAP global y por cliente (prioriza acciones por motivo).
-
-A/B testing de ofertas de retención por segmento y por motivo.
-
-Monitor de deriva (data drift) y reentrenos trimestrales.
-
 
